@@ -56,7 +56,7 @@ async function search() {
     resultsDiv.innerHTML = "";
 
     try {
-        const res = await fetch(`/api/medicine_search?query=${encodeURIComponent(query)}`);
+        const res = await fetch(`https://ayur-b547.onrender.com/api/medicine_search?query=${encodeURIComponent(query)}`);
         if (!res.ok) throw new Error("Search failed");
         const data = await res.json();
 
