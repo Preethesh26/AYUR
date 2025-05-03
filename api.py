@@ -117,7 +117,7 @@ class QueryRequest(BaseModel):
     query: str
 
 
-BASE_IMAGE_URL = "https://mrag27.onrender.com/images/"
+BASE_IMAGE_URL = "https://ayur-b547.onrender.com/images/"
 
 
 def search_plants(query: str, top_k: int = 1):
